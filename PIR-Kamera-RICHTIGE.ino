@@ -29,7 +29,7 @@ myservo.attach(7);
     pinMode(sensors[i], INPUT);}
     
     
-//kalibrieren
+//Calibration
   Serial.println("Calibrating Sensors");
   for(int i=0; i<20; i++)
   {Serial.println("calibrating");
